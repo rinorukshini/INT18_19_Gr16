@@ -1,8 +1,8 @@
 
 body{
+	background-color: rgb(235,235,235);
 
 }
-
 header{
 	background-color: rgb(235,235,235);
 	min-height: 140px;
@@ -31,10 +31,15 @@ header form{
 	min-height: 20px;
 
 
+
+
 }
 header form input{
-	width:200px;
-	border:0 0 0 0;
+	height: 28px;
+	width:205px;
+	border:none;
+	border-radius:5px 0px 0px 5px;
+	padding-left: 5px;
 
 	
 }
@@ -42,24 +47,31 @@ header form input{
 header form button{
 	background-color: rgb(151,69,95);
 	text-align:center;
-	height:25px;
+	height:30px;
 	color:white;
 	align-content: center;
+	border: none;
+	border-radius:0px 5px 5px 0px;
+	}
+	
 
-}
-nav ul{
+
+nav ul {
 	margin-top:0;
 	background-color: rgb(151,69,95);
 	min-height: 30px;
 	padding-top: 10px;
 	margin-left: 20px;
 	margin-right: 20px;
+	padding-left: 0px;
+	border-radius:5px 5px 0px 0px;
 }
 
 nav ul li{
 	display:inline;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding: 0px 10px 0px 20px;
+	margin:0 0 0 0;
+
 
 
 
@@ -70,4 +82,15 @@ nav ul li a{
 	text-decoration:none;
 
 
+
 }
+.active{
+	background-color:rgb(106 49 69);
+	padding-top: 10px;
+	padding-bottom: 12px;
+	border-radius:5px;
+}
+big {
+	font-size: 150%;
+}
+
