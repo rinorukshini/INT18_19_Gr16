@@ -1,0 +1,21 @@
+.grid-container1 {
+  display: grid;
+  grid-template-columns: auto auto ;
+  grid-gap: 10px;
+  background-color: rgba(192,192,192);
+  margin: 30px;
+  padding: 10px;
+}
+.grid-container1 > div {
+  background-color: rgba(192,192,192);
+  text-align: center;
+  margin: 10px;
+  padding: 20px 0;
+  font-size: 9px;
+}
+.item3 {
+
+  grid-column: 3 / 1;
+  background-color: rgba(192,192,192);
+  padding: 30px;
+}
