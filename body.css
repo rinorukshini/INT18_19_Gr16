@@ -1,3 +1,7 @@
+body{
+	margin:0px;
+}
+
 main{
 	margin-left:10px;
 }
@@ -5,7 +9,7 @@ main{
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  
+
   grid-gap:3em;
   background-color: (192,192,192,192);
   padding: 30px;
@@ -13,8 +17,8 @@ main{
 }
 .grid-container > div {
   background-color: rgba(0, 0, 0, 0);
- 
-  
+
+
   font-size: 100%;
 }
 
@@ -24,8 +28,8 @@ main{
 }
 
 .grid-container p{
-	
-	
+
+
 	float:center;
 	font-size:80%;
 }
@@ -39,7 +43,7 @@ main{
 .grid-container2 {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  
+
   grid-gap:3em;
   background-color: (192,192,192,192);
   padding: 30px;
@@ -68,10 +72,10 @@ main{
 .grid-container3 {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  
+
   grid-gap:0em;
   border-radius:10px;
-  
+
   background-color:rgb(151,69,95);
   color:white;
   height:8em;
@@ -94,7 +98,7 @@ main{
 .contactus{
 	background-color:white;
 	margin:2em 0em 2em 2em;
-	
+
 	border-radius:10px;
 	padding-right: 0;
 
