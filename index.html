@@ -22,9 +22,9 @@
 </ul>
 
 </div>
-  	<div class ="kyqja"><a class ="kyqja" href="#">Sign up</a> | <a class ="kyqja" href="login.html">Login</a> | <a class ="kyqja" href="#">RSS Feeds</a> | <a  class ="kyqja" href="#"> Archived News</a></div>
-  	<button id="shenja"><a class="r1" href="#">-</a></button>
-  	<div class="r1"></div>
+  	<div class ="kyqja"><a class ="kyqja" href="#">Sign up</a> | <a class ="kyqja" href="login.html">Login</a> | <a class ="kyqja" href="#">RSS Feeds</a> |<a   class ="kyqja" href="#"> Archived News</a></div>
+  	
+  	
 </div>
 </h6>
 	<header>
@@ -46,9 +46,49 @@
 			<li><a href="#">LONG TEXT LINK</a></li>
 		</ul>
 	</nav>
-	<div class="slide-show">
-		<figure><img src="images/imagation.jpg" height="650" weight="100px">
-		</figure>
+	<div class="slideshow-container">
+	<div class="mySlides fade con">
+
+		<img src="images/imagation.jpg" height="900" weight="350px">
+		<div class="content">texti eshte vendosur ketu
+		</div>
+	</div>
+
+			<div class="mySlides fade">
+				<img src="images/123.jpg" height="900" weight="350px">
+			</div>
+		</div>
+		<br>
+		<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" activ", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " activ";
+    setTimeout(showSlides, 4000); 
+}
+</script>
+
+
+		
 
 	</div>
 
