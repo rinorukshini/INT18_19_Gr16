@@ -23,8 +23,8 @@
 
 </div>
   	<div class ="kyqja"><a class ="kyqja" href="#">Sign up</a> | <a class ="kyqja" href="login.html">Login</a> | <a class ="kyqja" href="#">RSS Feeds</a> |<a   class ="kyqja" href="#"> Archived News</a></div>
-  	
-  	
+
+
 </div>
 </h6>
 	<header>
@@ -43,13 +43,13 @@
 			<li><a href="#">DROPDOWN</a></li>
 			<li><a href="#">PORTFOLIO</a></li>
 			<li><a href="#">GALLERY</a></li>
-			<li><a href="#">LONG TEXT LINK</a></li>
+			<li><a href="contact.html">CONTACT</a></li>
 		</ul>
 	</nav>
 	<div class="slideshow-container">
 	<div class="mySlides fade con">
 
-		<img src="images/imagation.jpg" height="900" weight="350px">
+		<img src="images/imagation.jpg" height="600px" weight="100px">
 		<div class="content">
 			<h1 style="text-align: center;">Titulli</h10>
 			<p>
@@ -67,9 +67,9 @@
 		</div>
 		<br>
 		<div style="text-align:center">
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
 </div>
 
 <script>
@@ -81,21 +81,21 @@ function showSlides() {
     var slides = document.getElementsByClassName("mySlides");
     var dots = document.getElementsByClassName("dot");
     for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";  
+       slides[i].style.display = "none";
     }
     slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}    
+    if (slideIndex > slides.length) {slideIndex = 1}
     for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" activ", "");
     }
-    slides[slideIndex-1].style.display = "block";  
+    slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " activ";
-    setTimeout(showSlides, 4000); 
+    setTimeout(showSlides, 4000);
 }
 </script>
 
 
-		
+
 
 	</div>
 
