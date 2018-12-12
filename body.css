@@ -1,5 +1,5 @@
 body{
-	margin:0px;
+	
 }
 
 main{
@@ -13,6 +13,7 @@ main{
   grid-gap:3em;
   background-color: (192,192,192,192);
   padding: 30px;
+ 
 
 }
 .grid-container > div {
@@ -48,6 +49,7 @@ main{
   background-color: (192,192,192,192);
   padding: 30px;
   margin:40px;
+  
   padding-left:0;
   padding-right: 0;
 }
@@ -80,6 +82,7 @@ main{
   color:white;
   height:8em;
   margin:40px;
+ 
 }
 
 
@@ -123,9 +126,10 @@ img {vertical-align:center;}
 
 /* Slideshow container */
 .slideshow-container {
-  width: 500px;
+  width: 1000px;
   position: relative;
-  margin-top: 20px;
+  margin-left: 50px;
+  margin-top: 40px;
 }
 
 
@@ -201,4 +205,18 @@ body {
   color: #f1f1f1;
   width: 100%;
   padding: 20px;
+}
+
+}
+.tit {
+    text-align: center;
+    display: block;
+    margin: 60px 0 50px 0;
+    line-height: 0;
+    border-bottom: 3px solid #aaa;
+}
+ 
+.tit span{
+        background-color: #fff;
+        padding: 0 15px;
 }
