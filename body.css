@@ -206,8 +206,6 @@ body {
   width: 100%;
   padding: 20px;
 }
-
-}
 .tit {
     text-align: center;
     display: block;
@@ -219,4 +217,15 @@ body {
 .tit span{
         background-color: #fff;
         padding: 0 15px;
+}
+.butoni {
+  background-color: rgb(151,69,95);
+  text-align:center;
+  height:30px;
+  color:white;
+  align-content: center;
+  border: none;
+  border-radius:0px 5px 5px 0px;
+  font-family: serif;
+
 }
