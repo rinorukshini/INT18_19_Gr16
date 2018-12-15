@@ -59,7 +59,7 @@ header form button{
 
 	}
 
-  header form button a{
+   button a{
     text-decoration: none;
     color:white;
   }
@@ -139,6 +139,63 @@ header form button{
    border:1px solid #004276;
    margin-top:0px;
     }
+
+
+   fieldset input, textarea{
+      margin:5px 0px;
+      width:30em;
+      padding: 5px;
+      font-family:serif;
+      border-radius: 3px;
+      border:none;
+
+    }
+
+    fieldset{
+      margin-top:40px;
+      background-color:rgb(235,235,235);
+    }
+
+    fieldset button{
+  background-color: rgb(151,69,95);
+  text-align:center;
+  height:30px;
+  color:white;
+  align-content: center;
+  border: none;
+  border-radius:5px 5px 5px 5px;
+  font-family: serif;
+  font-size: 110%;
+
+  }
+
+
+
+
+
+    .right-div{
+      text-align: center;
+      float:right;
+      width:50%;
+      margin-top:10em;
+      margin-right: 3em;
+      color: white;
+      background-color: rgb(151,69,95);
+      border-radius:10px;
+    }
+
+
+
+    .left-div{
+      float:left;
+      width:40%;
+      
+    }
+
+    .left-div h1{
+      color: rgb(151,69,95);
+    }
+
 
 
  
