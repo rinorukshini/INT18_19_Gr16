@@ -1,6 +1,8 @@
 /* kopje nga header.css */
 body{
   height:100%;
+
+
 }
 
 header{
@@ -57,6 +59,12 @@ header form button{
 
 	}
 
+  header form button a{
+    text-decoration: none;
+    color:white;
+  }
+
+
   nav{
   	background-color:rgb(235,235,235);
   }
@@ -77,12 +85,13 @@ header form button{
   	display:inline;
   	padding: 0px 10px 0px 20px;
   	margin:0 0 0 0;
-
-
-
-
-
   }
+  nav ul li:hover{
+  background-color:rgb(106 49 69);
+    padding-top: 10px;
+    padding-bottom: 12px;
+    border-radius:5px 0px 0px;
+}
   nav ul li a{
   	color:white;
   	text-decoration:none;
@@ -130,3 +139,6 @@ header form button{
    border:1px solid #004276;
    margin-top:0px;
     }
+
+
+ 

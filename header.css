@@ -97,8 +97,12 @@ nav ul li a{
 	text-decoration:none;
 	font-size: 35px;
 
-
-
+}
+nav ul li:hover{
+background-color:rgb(106 49 69);
+  	padding-top: 10px;
+  	padding-bottom: 12px;
+  	border-radius:5px 0px 0px;
 }
 .active{
 	background-color:rgb(106 49 69);
