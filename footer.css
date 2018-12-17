@@ -1,10 +1,14 @@
 footer {
 margin-bottom: 0px;
 padding: 1em;
-background: #D3D3D3;
+background: rgb(235,235,235);
 min-width: 100%;
 font-family: serif;
 font-size: 20px;
+
+}
+address{
+	font-style: normal;
 }
 .ph, textarea{
 			margin-top: 10px;
