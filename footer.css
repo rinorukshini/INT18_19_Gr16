@@ -1,16 +1,66 @@
 footer {
 margin-bottom: 0px;
 padding: 1em;
-background: #D3D3D3;
+background: rgb(235,235,235);
 min-width: 100%;
+font-family: serif;
+font-size: 20px;
+
 }
-.ph{
+address{
+	font-style: normal;
+}
+.ph, textarea{
 			margin-top: 10px;
 			border: 0;
 			background-color: #white;
 			border-radius: 3px;
 			font-size: 15px;
-			width: 70%;
+			width: 90%;
 			padding: 5px ;
 			color: #666666;
+			font-family: serif;
+			font-size: 16px;
+
 		}
+
+/* stilizimi i tabeles */
+
+table td{
+  padding: 10px;
+}
+.col1{
+  width:50%;
+
+}
+.myh4{
+  margin-bottom: 80px;
+}
+
+.col2, .col3{
+  width:22%;
+
+  padding:10px;
+  height: 90%;
+
+}
+
+.col1 p {
+  margin-left:5px;
+}
+
+.col3{
+  margin:40px 10px 40px 10px;
+
+}
+.col2 h4{
+	margin-bottom: :110spx;
+}
+
+.col2 address{
+	margin-bottom: 50px;
+}
+
+.col3 form{
+	margin-bottom: 50px;
+}
