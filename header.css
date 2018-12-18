@@ -84,9 +84,7 @@ nav ul li{
 	display:inline;
 	padding: 0px  10px 20px;
 	margin:0 0 0 0;
-	font-size: 35px;
-	font-style: oblique;
-
+	
 
 
 
@@ -95,7 +93,7 @@ nav ul li{
 nav ul li a{
 	color:white;
 	text-decoration:none;
-	font-size: 35px;
+	
 
 }
 nav ul li:hover{
@@ -147,16 +145,20 @@ display: flex;
 		font-size: 100%
 
 		}
-#shenja {
-	border-style: none;
-	background-color: rgb(106 49 69);
-	color:rgb(106 49 69);
-	text-decoration:none;
-	font-size: 35px;
-	margin-left: 93%;
-	width: 45px;
-}
+
+
 .r1 {
     border-bottom: 4px black;
     height: 500px;
+}
+.butoni {
+  background-color: rgb(151,69,95);
+  text-align:right;
+  height:30px;
+  color:white;
+  align-content: right;
+  border: none;
+  border-radius:0px 5px 5px 0px;
+  font-family: serif;
+
 }

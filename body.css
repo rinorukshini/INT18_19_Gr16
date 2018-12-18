@@ -1,9 +1,9 @@
 body{
-	font-family: serif;
+  
 }
 
 main{
-	margin-left:10px;
+  margin-left:10px;
 }
 
 .grid-container {
@@ -24,19 +24,19 @@ main{
 }
 
 .grid-container  h3{
-	margin-top:0;
-	margin-bottom: 10px;
+  margin-top:0;
+  margin-bottom: 10px;
 }
 
 .grid-container p{
 
 
-	float:center;
-	font-size:80%;
+  float:center;
+  font-size:80%;
 }
 
 .grid-container img{
-	margin-right:10px;
+  margin-right:10px;
 }
 
 /* grid containeri i dyte */
@@ -54,19 +54,19 @@ main{
   padding-right: 0;
 }
 .grid-container2 img{
-	border-radius:50%;
-	margin-right:20px;
+  border-radius:50%;
+  margin-right:20px;
 
 }
 
 .grid-container2 p{
 
-	font-size:16px;
+  font-size:16px;
 }
 
 .grid-container2 h3{
-	margin-top:0;
-	margin-bottom: 0;
+  margin-top:0;
+  margin-bottom: 0;
 }
 
 /* CONTACT US TODAY */
@@ -87,32 +87,32 @@ main{
 
 
 .before-contactus h1{
-	font-size:200%;
+  font-size:200%;
 }
 .before-contactus p{
-	font-size:100%;
+  font-size:100%;
 }
 
 .before-contactus{
-	margin:0 0 0 2em;
+  margin:0 0 0 2em;
 
 
 }
 .contactus{
-	background-color:white;
-	margin:2em 0em 2em 2em;
+  background-color:white;
+  margin:2em 0em 2em 2em;
 
-	border-radius:10px;
-	padding-right: 0;
+  border-radius:10px;
+  padding-right: 0;
 
 }
 
 .contactus a{
-	font-size:30px;
-	text-decoration: none;
-	color:rgb(151,69,95);
-	padding:10px 10px 10px 20px;
-	float:center;
+  font-size:30px;
+  text-decoration: none;
+  color:rgb(151,69,95);
+  padding:10px 10px 10px 20px;
+  float:center;
 
 }
 .desc {
@@ -121,15 +121,24 @@ main{
   }
   * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
-.mySlides {display: none;}
+.mySlides {
+  display: none;
+}
 img {vertical-align:center;}
 
 /* Slideshow container */
 .slideshow-container {
+<<<<<<< HEAD
   width: 100%;
  
   margin-left: 50px;
   margin-top: 40px;
+=======
+  width: 80%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+>>>>>>> c202bf01bdeed7d3c23f5a6404f515dce2c82df8
 }
 
 
@@ -176,14 +185,14 @@ img {vertical-align:center;}
 }
 
 body {
-  font-family:serif;
+  font-family: Arial;
   font-size: 17px;
 }
 
 
 .con {
   position: relative;
-  max-width: 1000px;
+  max-width: 80%;
   margin: 0 auto;
 }
 
@@ -197,14 +206,14 @@ body {
 
 .con .content {
   margin-bottom: 40px;
-  margin-left: 550px;
+  margin-left: 50%;
   position: absolute;
   bottom: 0;
-  background: rgb(0, 0, 0); 
-  background: rgba(128,128,128); 
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(128,128,128); /* Black background with 0.5 opacity */
   color: #f1f1f1;
-  width: 50%;
-  padding: 10px;
+  width: 48%;
+  padding: 20px;
 }
 .tit {
     text-align: center;
@@ -218,16 +227,3 @@ body {
         background-color: #fff;
         padding: 0 15px;
 }
-.butoni {
-  background-color: rgb(151,69,95);
-  text-align:center;
-  height:30px;
-  color:white;
-  align-content: center;
-  border: none;
-  border-radius:0px 5px 5px 0px;
-  font-family: serif;
-
-}
-
-
