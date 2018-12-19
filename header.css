@@ -72,7 +72,7 @@ nav ul {
 	background-color: rgb(151,69,95);
 	min-height: 30px;
 	padding-top: 10px;
-	margin-left: 20px;
+	margin-left: 10px;
 	margin-right: 10px;
 	padding-left: 0px;
 	border-radius:5px 5px 0px 0px;
@@ -99,14 +99,14 @@ nav ul li a{
 nav ul li:hover{
 background-color:rgb(106 49 69);
   	padding-top: 10px;
-  	padding-bottom: 12px;
+  	padding-bottom: 1px;
   	border-radius:5px 0px 0px;
 }
 .active{
 	background-color:rgb(106 49 69);
 	padding-top: 10px;
 	padding-bottom: 12px;
-	border-radius:5px 0px 0px;
+	border-radius:0px 0px 0px;
 }
 big {
 	font-size: 150%;
@@ -139,10 +139,10 @@ display: flex;
  .gjersia
 		{
 
-		min-width: 100px;
-		margin-bottom:10px;
+		min-width: 50px;
+		margin-bottom:5px;
 		margin-top: 10px;
-		font-size: 100%
+		font-size: 50%
 
 		}
 
@@ -156,9 +156,12 @@ display: flex;
   text-align:right;
   height:30px;
   color:white;
-  align-content: right;
+  
   border: none;
   border-radius:0px 5px 5px 0px;
-  font-family: serif;
+  margin-left:95%;
+  
 
 }
+h6 ul a:hover {
+  background-color: yellow;

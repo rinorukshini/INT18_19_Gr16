@@ -128,17 +128,16 @@ img {vertical-align:center;}
 
 /* Slideshow container */
 .slideshow-container {
-<<<<<<< HEAD
+
   width: 100%;
  
   margin-left: 50px;
   margin-top: 40px;
-=======
   width: 80%;
   position: relative;
   margin-left: auto;
   margin-right: auto;
->>>>>>> c202bf01bdeed7d3c23f5a6404f515dce2c82df8
+
 }
 
 
@@ -186,7 +185,7 @@ img {vertical-align:center;}
 
 body {
   font-family: serif;
-  font-size: 17px;
+ 
 }
 
 
