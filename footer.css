@@ -64,3 +64,8 @@ table td{
 .col3 form{
 	margin-bottom: 50px;
 }
+
+em{
+	font-size: 15px;
+	padding:20px;
+}
