@@ -2,8 +2,9 @@
 body{
 	background-color: white;
 	font-family: serif;
-
-
+	height: 100%;
+	margin:0px;
+	padding: 0px;
 }
 
 /* stilizimi i headerit */
@@ -49,7 +50,8 @@ font-family: serif;
 
 }
 
-header form button{
+
+button{
 	background-color: rgb(151,69,95);
 	text-align:center;
 	height:30px;
@@ -61,53 +63,53 @@ header form button{
 
 	}
 
-/* stilizimi i navigimit */
-
-nav{
-	background-color:rgb(235,235,235);
-}
-
-nav ul {
-	margin-top:0;
-	background-color: rgb(151,69,95);
-	min-height: 30px;
-	padding-top: 10px;
-	margin-left: 10px;
-	margin-right: 10px;
-	padding-left: 0px;
-	border-radius:5px 5px 0px 0px;
-	
-
-}
-
-nav ul li{
-	display:inline;
-	padding: 0px  10px 20px;
-	margin:0 0 0 0;
-	
+   button a{
+    text-decoration: none;
+    color:white;
+  }
 
 
+  nav{
+  	background-color:rgb(235,235,235);
+  }
 
-
-}
-nav ul li a{
-	color:white;
-	text-decoration:none;
-	
-
-}
-nav ul li:hover{
-background-color:rgb(106 49 69);
+  nav ul {
+  	margin-top:0;
+  	background-color: rgb(151,69,95);
+  	min-height: 40px;
   	padding-top: 10px;
-  	padding-bottom: 1px;
-  	border-radius:5px 0px 0px;
+  	margin-left: 20px;
+  	margin-right: 20px;
+  	padding-left: 0px;
+  	border-radius:5px 5px 0px 0px;
+
+  }
+
+  nav ul li{
+  	display:inline;
+  	padding: 0px 10px 0px 20px;
+  	margin:0 0 0 0;
+  }
+  nav ul li:hover{
+  background-color:rgb(106 49 69);
+    padding-top: 10px;
+    padding-bottom: 12px;
+    border-radius:5px 0px 0px;
 }
-.active{
-	background-color:rgb(106 49 69);
-	padding-top: 10px;
-	padding-bottom: 12px;
-	border-radius:0px 0px 0px;
-}
+  nav ul li a{
+  	color:white;
+  	text-decoration:none;
+
+
+
+  }
+  .active{
+  	background-color:rgb(106 49 69);
+  	padding-top: 10px;
+  	padding-bottom: 12px;
+  	border-radius:5px 0px 0px;}
+
+/*********/
 big {
 	font-size: 150%;
 }
@@ -165,7 +167,7 @@ display: flex;
 
 }
 
-h6 ul img {
+.gjersia ul img {
   opacity: 0.2;
   filter: alpha(opacity=20); 
 }
