@@ -167,9 +167,16 @@ display: flex;
 
 }
 
-.gjersia ul img {
-  opacity: 0.2;
-  filter: alpha(opacity=20); 
+.gallery-item{
+ -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 
-  
+.gallery-item:hover{
+-webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+transition: opacity .1s ease-out;
+-moz-transition: opacity .1s ease-out;
+-webkit-transition: opacity .1s ease-out;
+-o-transition: opacity .1s ease-out;
+}
