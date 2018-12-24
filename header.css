@@ -115,38 +115,52 @@ big {
 }
 .kyqja {
 	flex: 1;
-	padding-right: 0.5%;
-	padding-top: 1.5%;
+	padding:0px;
 	text-align: right;
-color:rgb(106 49 69);
+	margin-top: 0px;
+	margin-right: 5px;
+
 text-decoration:none;
-font-size: 12px;
+font-size: 15px;
+height: 30px;
+padding-top: 5px;
+color: rgb(151,69,95)
 }
 #vendosja {
-	flex: 1;
+	float: left;
 	text-align:left;
+	display: inline;
+	height: 15px;
+	
 }
 #renditja {
 
 	list-style-type: none;
-	padding-left: 1%;
-	padding-top: 0;
+	padding-left: 0;
+	padding-top: 1px;
 	padding-bottom: 0;
+	margin:0px;
 }
 #prapavija {
 
-
+    height:40px;
 	background-color: white;
-display: flex;
+  	display: none;
 }
- .gjersia
+ /*.gjersia
 		{
 
-		min-width: 50px;
-		margin-bottom:5px;
-		margin-top: 10px;
+		/*min-width: 10px;
+		min-height: 10px;
+		margin-bottom:0px;
+		margin-top: 0px;
 		font-size: 50%
 
+		}*/
+
+
+		.gjersia{
+			display: inline;
 		}
 
 
@@ -156,14 +170,16 @@ display: flex;
 }
 .butoni {
   background-color: rgb(151,69,95);
-  text-align:right;
-  height:30px;
+  text-align:center;
+  height:25px;
+  width: 30px;
   color:white;
+  padding: 0px;
   
   border: none;
-  border-radius:0px 5px 5px 0px;
-  margin-left:95%;
-  
+  border-radius:0px 0px 5px 5px;
+  margin-left:96%;
+  margin-top:0px;  
 
 }
 
