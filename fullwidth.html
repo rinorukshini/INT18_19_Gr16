@@ -3,7 +3,54 @@
 <head>
 	<title>Fullwidth</title>
 	<link rel="stylesheet" href="header.css">
-	<body><h6 class="gjersia">
+	<style>
+	 body, section, div {
+  height: 100%;
+}
+
+body { 
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 1.25rem;
+  line-height: 150%;
+  text-align: center;
+  text-shadow: 0 2px 2px #b6701e;
+  margin-left: 10px;
+}
+
+h2 {
+  font-size: 1.75rem;
+  margin: 0 0 0.75rem 0;
+}
+
+
+.container {
+  display: table;
+  height: 100%;
+  width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+div {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  width: 50%;
+  padding: 1rem;
+}
+
+.left-half {
+  background: rgb(151,69,95);
+  margin-left: 10%;
+}
+
+.right-half {
+   background-color: rgb(235,235,235);
+   margin-right: 20px;
+}
+	</style>
+	<header1></header>><h6 class="gjersia">
 		 <div id="prapavija">
   <div id="vendosja">
   <ul id="renditja">
@@ -35,7 +82,7 @@ function myFunction() {
 }
 </script>
 	<header>
-			<h1><big>I</big>MAGINATIVE</h1>
+			<h1 style="color: black;"><big>I</big>MAGINATIVE</h1>
 			<form>
 				<input  class="search" placeholder="Search Our Website...">
 				<button class="search">SUBMIT</button>
@@ -55,6 +102,9 @@ function myFunction() {
 	</nav>
 </head>
 <body>
+	<section class="container">
+  <div class="left-half">
+    <article>
 	<h1>Freehand perspective and drawing in 3D</h1>
 	<p>Perspective is something that brings math and geometry to mind, and it doesn’t seem to have anything to do with free, creative drawing you’re interested in. But perspective isn’t only about drawing architecture and vehicles—it applies to all 3D objects, even the living ones. It gives the volume to their bodies, making them look real and 3D on a flat sheet of paper. When you know perspective, you can draw your creatures in all views and poses without any limits—everything you can imagine! And this is what I’d like to teach you today: how to add another dimension to your drawing without making it boring and mathematical.</p>
 	<h1>What is Perspective?</h1>
@@ -62,6 +112,25 @@ function myFunction() {
 	<img src="images/2d.png" style="position: relative;">
 	<p>The third dimension is depth. It lets you go around within the space made of infinite number of 2D planes stuck together as pages of a book.</p>
 	<img src="images/3d.png">
+	<h2>Why Objects Are Distorted in Perspective</h2>
+	<p>However, it’s not completely true that we can’t see three dimensions at once—we can, but they’re always reduced to a 2D view. We see that reduction as distortion—one dimension must be shortened to make some space for another one.
+
+</p>
+
+<img src="images/why.png">
+<p>That distortion is very regular. In fact, we can easily imagine a full 3D shape (or, rather: other 2D views) of something just by observing how it changes during rotation. Our brains know the rules of perspective perfectly—but it doesn’t mean we know them consciously. So let’s analyze the basics one by one.
+
+First thing: when you rotate an object around one dimension (here: the red one), it stays unharmed. Its the other two (blue and green) that swap their lengths and position. Analyze this illustration step by step to understand what I’m talking about.</p>
+<h1>Exercise 2: the Ellipsoid
+</h1>
+<p>I’ve used cubes/boxes as an example, but in free drawing we don’t use them very often. A more universal shape is ellipsoid: a form with three ellipses as its 2D planes. Looks complicated? Actually, an ellipsoid is easier to draw in perspective than a box, because you only need these three ellipses, not the three inner planes and six outer walls!</p>
+<img src="images/ellipsoid.png">
+<p>Although you don’t need to draw the outer walls, you still need to create the edges of each ellipse in some way. An ellipse in perspective is always an ellipse, but it’s using a different set of axes than you could think. So how to draw an ellipse in perspective, when the axes don’t have right angle between them anymore?</p>
+<img src="images/3.png">
+	 </article>
+  </div>
+  <div class="right-half">
+  	 <article style="color: black;">
 	<h1>Test Your Imagination</h1>
 	<p>You’ve learned how to draw forms in perspective using guide lines, but now you need to learn to do without them. 
 	This is the next step towards the freedom of line! Use both templates once again, but this time draw the forms freely,
@@ -71,5 +140,15 @@ function myFunction() {
 	<h1>Live Perspective Analysis</h1>
 	<p>Don’t let tall these cubes, boxes, and ellipsoids fool you—perspective is not only a domain of dead, man-made things. To get a better grasp of how perspective affects live beings, turn animals into simple forms. Fish, snakes, and swimming seals are great for beginning, and when you start feeling comfortable with drawing them, you can tackle every animal in every pose (just don’t get caught in the details). This is a fun exercise and it brings you closer to the real application of perspective.</p>
 	<img src="images/animals.jpg">
+	<h1>Understand the Perspective</h1>
+	<p>This was a lot of theory, but how to apply it to “real” drawing? There are two parts of the skill of perspective: understanding and practice. I’ve already explained the rules, but theory is something you can forget easily. You need to see how the rules work in practice in order to really “get” them. These exercises will help you train your mind to predict the changes made by rotation.</p>
+
+	<h1>Exercise 1: the Box</h1>
+	<p>Before we start, I want you to know that this isn’t the method I use to draw forms in perspective. This is just an exercise you need to do at least once to understand what really happens during rotation. This method can be also used to solve some problematic view, but it’s still just a tool of special use rather than a method for free drawing. You can download a template for this exercise, or follow me step by step to create it from scratch.
+
+If you don’t use the template, draw a side of the object you want to rotate. A box should be simple enough to start.</p>
+<img src="images/1.png">
+<p>Draw a square with the box in one corner. The larger the square, the more views you’ll be able to draw. Where exactly to put the square? It depends how you want to rotate the box. In the case below we’ll rotate it to the right (around the x) and down (around the y).</p>
+<img src="images/2.png">
 </body>
 </html>
