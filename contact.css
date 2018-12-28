@@ -140,6 +140,9 @@ header form button{
    margin-top:0px;
     }
 
+    span{
+      color:red;
+    }
 
    fieldset input, textarea{
       margin:5px 0px;

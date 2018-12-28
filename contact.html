@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Contact</title>
+    <script  src="jquery-3.3.1.min.js"></script>
      <script type="text/javascript">
       function check(){
       
@@ -19,40 +20,68 @@
 
         if(name == ""){
           document.getElementById('fillname').innerHTML="* Please fill the name";
+          document.getElementById('name').focus();
           return false;
         }
-        else
+        else{
         	document.getElementById('fillname').innerHTML="";
+          document.getElementById('telephone').focus();
+        }
 
           if(telephone == ""){
           document.getElementById('filltelephone').innerHTML="* Please fill the telephone number";
           return false;
         }
-        else
+        else{
         	document.getElementById('filltelephone').innerHTML="";
+          document.getElementById('email').focus();}
          
           if(email == ""){
           document.getElementById('fillemail').innerHTML="* Please fill the e-mail";
           return false;
         }
-        else
+        else{
         	document.getElementById('fillemail').innerHTML="";
-
+          document.getElementById('subject').focus();
+        }
           if(subject == ""){
           document.getElementById('fillsubject').innerHTML="* Please fill the subject";
           return false;
         }
-        else
+        else{
         	document.getElementById('fillsubject').innerHTML="";
-
+          document.getElementById('message').focus();
+        }
           if(message == ""){
           document.getElementById('fillmessage').innerHTML="* Please fill the message";
           return false;
         }
-        else
+        else{
         	document.getElementById('fillmessage').innerHTML="";
+          document.getElementById('name').focus();
+
+        }
+
       
+        $("#myform")[0].reset();
       }
+
+      function save(){
+        var nameInput=document.getElementById('name').value;
+        var telephoneInput=document.getElementById('telephone').value;
+        var emailInput=document.getElementById('email').value;
+        var subjectInput=document.getElementById('subject').value;
+        var messageInput=document.getElementById('message').value;
+
+
+        localStorage.setItem('text', nameInput);
+        localStorage.setItem('text', telephoneInput);
+        localStorage.setItem('text', emailInput);
+        localStorage.setItem('text', subjectInput);
+        localStorage.setItem('text', messageInput);
+
+      }
+      
     </script>
   </head>
   <body>
@@ -110,25 +139,25 @@
       <hr>
 
       <fieldset>
-        <form id="myform" action="#" onsubmit="return check()">
+        <form id="myform" action="#" onsubmit="return check()" >
         <div class="left-div"><h1>Message us</h1>
 
         <label>Name</label><br>
         <input type="text" id="name" placeholder="Enter name" autocomplete="off"><br>
-        <span id="fillname" style="color:red;" ></span><br>
+        <span id="fillname"></span><br>
         <label>Telephone</label><br>
         <input type="text" id="telephone" placeholder="Enter telephone number" autocomplete="off"><br>
-        <span id="filltelephone" style="color:red;"></span><br>
+        <span id="filltelephone" ></span><br>
         <label>E-mail</label><br>
         <input type="text" id="email" placeholder="Enter e-mail" autocomplete="off"><br>
-        <span id="fillemail" style="color:red;" ></span><br>
+        <span id="fillemail" ></span><br>
         <label>Subject</label><br>
         <input type="text" id="subject" placeholder="Enter subject" autocomplete="off"><br>
-        <span id="fillsubject" style="color:red;" ></span><br>
+        <span id="fillsubject" ></span><br>
         <label>Message</label><br>
-        <textarea type="text" id="message" rows="5" placeholder="Enter message" autocomplete="off"></textarea><br>
-        <span id="fillmessage" style="color:red;"></span><br>
-        <button  type="submit" name="submit">Submit</button>
+        <textarea type="text" id="message" rows="5" placeholder="Enter message"></textarea><br>
+        <span id="fillmessage" ></span><br>
+        <button onclick="save()" type="submit" name="submit" >Submit</button>
       </form>
        
         </div>
