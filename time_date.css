@@ -1,0 +1,49 @@
+body{
+	margin:0px;
+	padding: 0px;
+	background-image: url("images/night.jpg")  ;
+	width: 100%;
+	height: 100%;
+	background-size: auto;
+}
+
+#clock, #date{
+	font-size:40px;
+}
+
+div{
+	border-width: 2px;
+	border-color: white;
+	border-style: groove;
+	text-align: center;
+}
+
+h1{
+	color:white;
+}
+
+#div1{
+	margin:200px 300px 0px 300px;
+}
+
+#div2{
+	margin:5px 300px 0px 300px;
+	font-size: 30px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	
+}
+
+#div2:hover{
+	background-color:white;
+	color:black;
+}
+
+
+a:hover{
+	background-color:white;
+	color:black;
+}
