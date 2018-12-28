@@ -94,8 +94,8 @@ button{
   nav ul li:hover{
   background-color:rgb(106 49 69);
     padding-top: 10px;
-    padding-bottom: 20px;
-    border-radius:5px 0px 0px;
+    padding-bottom: 15px;
+
 }
   nav ul li a{
   	color:white;
@@ -107,7 +107,7 @@ button{
   .active{
   	background-color:rgb(106 49 69);
   	padding-top: 10px;
-  	padding-bottom: 12px;
+  	padding-bottom: 15px;
   	border-radius:5px 0px 0px;}
 
 /*********/
