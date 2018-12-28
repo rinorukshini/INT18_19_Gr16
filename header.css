@@ -115,11 +115,13 @@ big {
 	font-size: 150%;
 }
 .kyqja {
+  align-content: right;
+  text-align: right;
 	flex: 1;
 	padding:0px;
-	text-align: right;
 	margin-top: 0px;
 	margin-right: 5px;
+  
 
 text-decoration:none;
 font-size: 15px;
@@ -136,7 +138,7 @@ color: rgb(151,69,95)
 }
 #renditja {
 
-	list-style-type: none;
+	
 	padding-left: 0;
 	padding-top: 1px;
 	padding-bottom: 0;
@@ -162,6 +164,8 @@ color: rgb(151,69,95)
 
 		.gjersia{
 			display: inline;
+
+
 		}
 
 

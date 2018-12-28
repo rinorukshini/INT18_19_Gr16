@@ -7,6 +7,29 @@
 	<link rel="stylesheet" type="text/css" href="body.css">
 	<link rel="stylesheet" type="text/css" href="grid.css">
 	<link rel="stylesheet" type="text/css" href="footer.css">
+	<style type="text/css">
+		.anir
+    content: "\201C";
+    position: absolute;
+    height: 0;
+    width: 0;
+    left: 45px;
+    top: 25px;
+    font-family: "Times New Roman",Georgia,Serif;
+    font-size: 6em;
+    line-height: 1;
+    font-weight: 900;
+    color: grey;
+	</style>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax"></script>
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".butoni").click(function(){
+				$("#prapavija").slideToggle("slow")
+			});
+		})
+	</script>
 </head>
 <body>
 	<div class="gjersia">
@@ -33,23 +56,13 @@
 </div>
   	<div style="color: rgb(151,69,95)" class ="kyqja"><a class ="kyqja" href="#">Sign up</a> | <a class ="kyqja" href="login.html">Login</a> | <a class ="kyqja" href="#">RSS Feeds</a> |<a   class ="kyqja" href="#"> Archived News</a></div>
 
-
-
-</div>
+<hr style="border: 1px color:rgb(151,69,95);">
 </div>
 
+</div>
 	<header>
-	<button onclick="myFunction()"  class="butoni">-</button>	
-<script>
-function myFunction() {
-  var x = document.getElementById("prapavija");
-  if (x.style.display === "none") {
-    x.style.display = "inline";
-  } else {
-    x.style.display = "none";
-  }
-}
-</script>
+	<button class="butoni">-</button>	
+
 			<h1><big>I</big>MAGINATIVE</h1>
 			<form>
 				<input  class="search" placeholder="Search Our Website...">
@@ -223,7 +236,9 @@ function showSlides() {
 			<span> Title</span>
 		</h2>
 
-				<h3>Monika Zagrobelna</h3>
+				
+					
+					<h3>Monika Zagrobelna</h3>
 				<a href="video.html" >Video ></a>
 				<p  align-text="center">I'm a Polish artist with a long experience in doing useless, but creative things. Since I realized how bad I was after all these years, I decided to take fate into my own hands and actually study things in order to draw them properly.</p>
 			</div>
@@ -282,7 +297,7 @@ function showSlides() {
 				<br />
 				Tel : xxx xxx xxx<br>
 				Fax : xxx xxx xxx<br>
-				Email:<p style="color: rgb(151,69,95)">contact@mydomain.com</p><br>
+				Email:<p><span style="color:rgb(151,69,95)">contact@mydomain.com</span></p><br>
 				<br />
 				<b>Office Hours</b><br>
 				Monday - Friday : 08:00 - 17:30<br>

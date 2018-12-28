@@ -209,8 +209,7 @@ body {
   margin-left: 50%;
   position: absolute;
   bottom: 0;
- /* background: rgb(0, 0, 0); /* Fallback color */
- /* background: rgba(128,128,128); /* Black background with 0.5 opacity */
+
  
   color: rgb(106,49, 69);
   width: 48%;
@@ -233,3 +232,15 @@ body {
   min-height: 5px;
   background-color: rgb(210, 210, 210);
 }
+blockquote:before {
+    content: "\201C";
+    position: absolute;
+    height: 0;
+    width: 0;
+    left: 45px;
+    top: 25px;
+    font-family: "Times New Roman",Georgia,Serif;
+    font-size: 6em;
+    line-height: 1;
+    font-weight: 900;
+    color: grey;

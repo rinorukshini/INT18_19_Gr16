@@ -13,9 +13,9 @@ function init() {
 	canvas.height = window.innerHeight - 75;
   
 	//$('#container').get(0).addEventListener('mousemove', onMouseMove, false);
-	canvas.addEventListener('mousemove', onMouseMove, false);
-	canvas.addEventListener('click', onClick, false);
 	
+	canvas.addEventListener('click', onClick, false);
+	canvas.addEventListener('mousemove', onMouseMove, false);
 	// Add events for toolbar buttons.
 	$('#red').get(0).addEventListener('click', function(e) { onColorClick(e.target.id); }, false);
 	$('#pink').get(0).addEventListener('click', function(e) { onColorClick(e.target.id); }, false);
@@ -28,27 +28,20 @@ function init() {
 	$('#purple').get(0).addEventListener('click', function(e) { onColorClick(e.target.id); }, false);
 	$('#black').get(0).addEventListener('click', function(e) { onColorClick(e.target.id); }, false);
 	$('#white').get(0).addEventListener('click', function(e) { onColorClick(e.target.id); }, false);
-	$('#cat').get(0).addEventListener('click', function(e) { onStamp(e.target.id); }, false);
-	$('#dragonfly').get(0).addEventListener('click', function(e) { onStamp(e.target.id); }, false);
-	$('#ladybug').get(0).addEventListener('click', function(e) { onStamp(e.target.id); }, false);
-	$('#heart').get(0).addEventListener('click', function(e) { onStamp(e.target.id); }, false);
-	$('#dog').get(0).addEventListener('click', function(e) { onStamp(e.target.id); }, false);
-	$('#fill').get(0).addEventListener('click', function(e) { onFill(); }, false);
-	$('#save').get(0).addEventListener('click', function(e) { onSave(); }, false);
 }
 
 function onMouseMove(ev) {
 	var x, y;
 		
-	// Get the mouse position.
+	
 	if (ev.layerX >= 0) {
-		// Firefox
-		x = ev.layerX - 50;
+		
+		x = ev.layerX - 5;
 		y = ev.layerY - 5;
 	}
 	else if (ev.offsetX >= 0) {
-		// Opera
-		x = ev.offsetX - 50;
+		
+		x = ev.offsetX - 5;
 		y = ev.offsetY - 5;
 	}
 	
@@ -87,38 +80,80 @@ function onColorClick(color) {
 	}
 	
 	$('#' + lastColor).css("border", "0px dashed white");
-	$('#' + color).css("border", "1px dashed " + borderColor);
+	$('#' + color).css("border", "2px dashed " + borderColor);
 	
 	// Store color so we can un-highlight it next time around.
 	lastColor = color;
 }
 
-function onFill() {
-	// Start a new path to begin drawing in a new color.
-	context.closePath();
-	context.beginPath();
 
-	context.fillStyle = context.strokeStyle;
-	context.fillRect(0, 0, canvas.width, canvas.height);
-}
 
-function onStamp(id) {
-	// Update the stamp image.
-	stampId = '#' + id;
 
-    if (lastStampId == stampId) {
-        // User clicked the selected stamp again, so deselect it.
-        stampId = '';
-    }
 
-	$(lastStampId).css("border", "0px dashed white");
-	$(stampId).css("border", "1px dashed black");
-	
-	// Store stamp so we can un-highlight it next time around.
-	lastStampId = stampId;	
-}
 
-function onSave() {
-	var img = canvas.toDataURL("image/png");
-	document.write('<img src="' + img + '"/>');
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
