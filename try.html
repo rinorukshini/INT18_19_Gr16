@@ -17,17 +17,8 @@
     <script type="text/javascript" src="init.js"></script>	
 </head>
 <header>
-	<button onclick="myFunction()"  class="butoni">-</button>	
-<script>
-function myFunction() {
-  var x = document.getElementById("prapavija");
-  if (x.style.display === "none") {
-    x.style.display = "inline";
-  } else {
-    x.style.display = "none";
-  }
-}
-</script>
+	<button  class="butoni">-</button>	
+
 			<h1><big>I</big>MAGINATIVE</h1>
 			<form>
 				<input  class="search" placeholder="Search Our Website...">
@@ -39,7 +30,7 @@ function myFunction() {
 		<ul style="min-height: 18px">
 			<li><a href="index.html">HOME</a></li>
 			<li><a href="drawing.html">DRAWING</a></li>
-			<li><a href="perspective.html">PERSPECTIVE</a></li>
+			<li><a href="fullwidth.html">PERSPECTIVE</a></li>
 			<li><a href="Application.html">APPLICATION</a></li>
 			<li><a href="time_date.html">TIME</a></li>
 			<li class="active"><a href="try.html">TRY</a></li>
@@ -69,7 +60,7 @@ function myFunction() {
 		</div>
 
 		<div id="canvasDiv" style="float: left;">
-		  <canvas id="imageView">
+		  <canvas id="imageView" width="1200px" height="600px">
 			<p>Unfortunately, your browser is currently unsupported by our web 
 			application.  We are sorry for the inconvenience. Please use one of the 
 			supported browsers listed below, or draw the image you want using an 
@@ -80,7 +71,12 @@ function myFunction() {
 			  href="http://www.konqueror.org">Konqueror</a>.</p>
 		  </canvas>		
 		</div>
-		<div id="stats" style="font-size:8pt; padding-left: 50px; float: left;">0 0</div>		
 	</div>
+	
+
 </body>
+<footer>
+			Copyright &copy; 2018 - All Rights Reserved - Imaginative
+		
+	</footer>
 </html>
