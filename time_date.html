@@ -15,7 +15,7 @@
 
 <a href="index.html"><div id="div2">Back to Home</div></a>
 		<script type="text/javascript">
-		var daysOfWeek = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
+		var daysOfWeek = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 		var monthsOfYear = ["January","February","March","April","May","June","July","August","September","October","November","December"]
 
 		var rightNow = new Date();
@@ -27,7 +27,7 @@
 		var dayOfMonth = rightNow.getDate();
 		var year = rightNow.getFullYear();
 
-		var dayToString = daysOfWeek[day-1];
+		var dayToString = daysOfWeek[day];
 		var monthToString = monthsOfYear[month];
 
 		 if (hours.length < 2) {
