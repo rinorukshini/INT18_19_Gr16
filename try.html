@@ -39,42 +39,44 @@
 		</ul>
 	</nav>
 
-<body>
-  <div id="container" style="padding:5px 0px 0px 0px;">
-		<div id="colorToolbar" style="border: 1px solid black; float: left;">
-			<div id="red" style="background:red; width:50px; height:50px; float:left;"></div><div style="clear: both;"></div>
-			<div id="pink" style="background:pink; width:50px; height:50px; float:left;"></div><div style="clear: both;"></div>
-			<div id="fuchsia" style="background:fuchsia; width:50px; height:50px; float:left;"></div><div style="clear: both;"></div>
-			<div id="orange" style="background:orange; width:50px; height:50px; float:left;"></div><div style="clear: both;"></div>
-			<div id="yellow" style="background:yellow; width:50px; height:50px; float:left;"></div><div style="clear: both;"></div>
-			<div id="lime" style="background:lime; width:50px; height:50px; float:left;"></div><div style="clear: both;"></div>
-			<div id="green" style="background:green; width:50px; height:50px; float:left;"></div><div style="clear: both;"></div>
-			<div id="blue" style="background:blue; width:50px; height:50px; float:left;"></div><div style="clear: both;"></div>
-			<div id="purple" style="background:purple; width:50px; height:50px; float:left;"></div><div style="clear: both;"></div>
-			<div id="black" style="background:black; width:50px; height:50px; float:left; border: 1px dashed white;"></div><div style="clear: both;"></div>
-			<div id="white" style="background:white; width:50px; height:50px; float:left;"></div><div style="clear: both;"></div>
-			<hr/>
-			
-			
-			
-			
-		</div>
 
-		<div id="canvasDiv" style="float: left;">
-		  <canvas id="imageView" width="1200px" height="600px">
-			<p>Unfortunately, your browser is currently unsupported by our web 
-			application.  We are sorry for the inconvenience. Please use one of the 
-			supported browsers listed below, or draw the image you want using an 
-			offline tool.</p>
-			<p>Supported browsers: <a href="http://www.opera.com">Opera</a>, <a 
-			  href="http://www.mozilla.com">Firefox</a>, <a 
-			  href="http://www.apple.com/safari">Safari</a>, and <a 
-			  href="http://www.konqueror.org">Konqueror</a>.</p>
-		  </canvas>		
+<body>
+  <h1>Simple jQuery Drawing Application</h1>
+	<canvas	width="600" height="400"></canvas>
+	<div class="controls">
+		<ul>
+			<li class="red selected"></li>
+			<li class="blue"></li>
+			<li class="yellow"></li>
+		</ul>
+		<button id="revealColorSelect">New Color</button>
+		<div id="colorSelect">
+			<span id="newColor"></span>
+			<div class="sliders">
+				<p>
+					<label for="red">Red</label>
+					<input id="red" name="red" type="range" min=0 max=255 value=0>
+				</p>
+				<p>
+					<label for="green">Green</label>
+					<input id="green" name="green" type="range" min=0 max=255 value=0>
+				</p>
+				<p>
+					<label for="blue">Blue</label>
+					<input id="blue" name="blue" type="range" min=0 max=255 value=0>
+          </p>
+          <p>
+          <label for="alpha">Alpha</label>
+					<input id="alpha" name="alpha" type="range" min=0 max=100 value=100>
+				</p>
+			</div>
+			<div>
+			<button id="addNewColor">Add Color</button>
+			</div>
 		</div>
 	</div>
-	
-
+	<script src="https://code.jquery.com/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/app.js" type="text/javascript" charset="utf-8"></script>	
 </body>
 <footer>
 			Copyright &copy; 2018 - All Rights Reserved - Imaginative
