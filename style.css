@@ -1,5 +1,5 @@
 body {
-background:#384047;
+background:rgb(106 49 69);
 font-family:"HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
 font-weight:300;
 text-align:center;
@@ -17,7 +17,7 @@ display:block;
 margin:30px auto 10px;
 border-radius:5px;
 box-shadow:0 4px 0 0 #222;
-cursor:url(../img/cursor.png),crosshair
+cursor:url(cursor.png),crosshair
 }
 
 .controls {
@@ -70,8 +70,7 @@ height:40px
 }
 
 button {
-background:#68B25B;
-box-shadow:0 3px 0 0 #6A845F;
+background:rgb(151,69,95);
 color:#fff;
 outline:none;
 cursor:pointer;
