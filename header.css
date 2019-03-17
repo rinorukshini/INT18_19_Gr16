@@ -181,12 +181,12 @@ color: rgb(151,69,95)
 }
 
 .gallery-item{
- -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+ -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
 }
 
 .gallery-item:hover{
--webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+-webkit-filter: grayscale(0%); 
     filter: grayscale(0%);
 transition: opacity .1s ease-out;
 -moz-transition: opacity .1s ease-out;

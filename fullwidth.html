@@ -86,7 +86,7 @@
         var largeStroke = 5;
         var smallStroke = 2;
  
-        // position of falling shape
+        
         var fallingShapeRow;
         var fallingShapeCol;
  
@@ -425,7 +425,7 @@
             fillRect(outerRect, bgColor);
             fillRect(gridRect, gridColor);
  
-            // the blocks dropped in the grid
+            
             for (var r = 0; r < nRows; r++) {
                 for (var c = 0; c < nCols; c++) {
                     var idx = grid[r][c];
@@ -434,13 +434,13 @@
                 }
             }
  
-            // the borders of grid and preview panel
+            
             g.lineWidth = largeStroke;
             drawRect(gridRect, gridBorderColor);
             drawRect(previewRect, gridBorderColor);
             drawRect(outerRect, gridBorderColor);
  
-            // scoreboard
+            
             g.fillStyle = textColor;
             g.font = smallFont;
             g.fillText('hiscore    ' + scoreboard.getTopscore(), scoreX, scoreY);
@@ -448,7 +448,7 @@
             g.fillText('lines      ' + scoreboard.getLines(), scoreX, scoreY + 60);
             g.fillText('score      ' + scoreboard.getScore(), scoreX, scoreY + 90);
  
-            // preview
+            
             var minX = 5, minY = 5, maxX = 0, maxY = 0;
             nextShape.pos.forEach(function (p) {
                 minX = Math.min(minX, p[0]);
